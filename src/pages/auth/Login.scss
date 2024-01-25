@@ -1,0 +1,137 @@
+.main-contant{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    .sign-page{
+        width: 1170px;
+        height: 550px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: var(--body-bg-color);
+        .logging{
+            width: 585px;
+            height: 550px;
+            padding-left: 93px;
+            padding-top: 71px;
+            h1{
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 39px;
+                color: var(--butt-info-color);
+                padding-bottom: 40px;
+            }
+            p{
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 22px;
+                color: var(--butt-info-color);
+                padding-bottom: 12px;
+            }
+            form{
+                // width: 400px;
+                // height: 48px;
+                display: flex;
+                flex-direction: column;
+                input{
+                    width: 400px;
+                    height: 48px;
+                    background: var(--body-bg-color);
+                    font-size: 19px;
+                    border: 1px solid #E9EDF4;
+                    border-radius: 5px;
+                    margin-bottom: 30px;
+                    outline: 0;
+                    padding-left: 18px;
+                    color: var(--login-color)
+                }
+                span{
+                    margin-top: -15px;
+                    color: red;
+                    margin-bottom: 10px;
+                }
+                .butt{
+                    width: 400px;
+                    height: 48px;
+                    background: var(--butt-bg-color);
+                    border-radius: 6px;
+                    border: none;
+                    margin-top: 5px;
+                    margin-bottom: 30px;
+                    cursor: pointer;
+                    color: #FFF;
+                    font-weight: 500;
+                    font-size: 14px;
+                }
+            }
+            .other-state{
+                width: 400px;
+                display: flex;
+                justify-content: space-between;
+                p{
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 22px;
+                    color: var(--butt-info-color);
+                    cursor: pointer;
+                }
+                .help{
+                    width: 226px;
+                    display: flex;
+                 span{
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 22px;
+                    text-align: right;
+                    color: var(--butt-bg-color);
+                 }
+                }
+            }
+        }
+//         .circleSmaller{
+//             position: relative;
+// &::after{
+//     content: '';
+//     position: absolute;
+//     bottom: 60px;    
+//     right: 30px;
+//     width: 400px;
+//     height: 400px;
+//     border-radius: 100%;
+//     background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 17.71%, rgba(255, 255, 255, 0) 100%);
+// }
+//         }
+        aside{
+            position: relative;
+            width: 585px;
+            height: 550px;
+            background-color: var(--butt-bg-color);  
+            h2{
+                position: absolute;
+                width: 128px;
+                height: 102px;
+                bottom: 55px;
+                left: 55px;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 34px;
+                color: #FFF;
+            }
+            .small-circle{
+                position: absolute;
+                width: 85px;
+                height: 85px;
+                border-radius: 100%;
+                background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 17.71%, rgba(255, 255, 255, 0) 100%);
+                transform: rotate(-90deg);
+                bottom: 60px;
+                right: 85px;
+            }
+            
+        }
+
+    }
+}

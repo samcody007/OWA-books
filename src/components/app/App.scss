@@ -1,0 +1,32 @@
+:root{
+    --body-bg-color: #FFFFFF;
+    --butt-bg-color:#41B64D;
+    --sidebar-books-color: rgba(65, 182, 77, 0.25);
+    --butt-info-color: hsl(209, 23%, 22%);
+    --hp-bg-color:#F3F3F7;
+    --login-color:#383a3b;
+    --span-text-color:#4D4D4D;
+    --info-btn-color:#F8FAFC;
+    --review-bg-color: #333333;
+    --edition-bg-color: #9A9A9A;
+    --other-bg-color: #FFF;
+    --share-bg-color: #000000;
+    --other-content-color: #4D4D4D;
+    --login-background-img: url(../../images/loginBg.svg)
+}
+body.dark{
+    --body-bg-color: #2B3844;
+    --butt-bg-color:#F27851;
+    --sidebar-books-color: #F27851;
+    --butt-info-color: #FFFFFF;
+    --hp-bg-color: #202C36;
+    --login-color: #FFFFFF;
+    --span-text-color: #FFF;
+    --info-btn-color: #F27851;
+    --review-bg-color: #FFFFFF;
+    --edition-bg-color: #FFF;
+    --other-bg-color: #F27851;
+    --share-bg-color: #FFFFFF;
+    --other-content-color:#F27851;
+    --login-background-img: url(../../images/book-1.png)
+}

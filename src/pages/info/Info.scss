@@ -1,0 +1,404 @@
+.information{
+    width: 100%;
+    background: var(--hp-bg-color);
+    .info-page{
+        margin: 0 auto;
+        // padding: 0 40px;
+        margin-left: 40px;
+        .to-back{
+            width: 180px;
+            height: 20px;
+            display: flex;
+            column-gap: 12px;
+            align-items: center;
+            padding-top: 40px;
+            margin-bottom: 41px;
+            margin-left: 40px;
+            svg{
+                width: 12px;
+                height: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;   
+                path{
+                    stroke: var(--span-text-color)
+                } 
+                
+            }
+            .button{
+                width: 151px;
+                display: flex;
+                justify-content: flex-start;
+                font-weight: 400;
+                font-size: 15px;
+                text-decoration: none;
+                background-color: inherit;
+                color: var(--butt-info-color);
+                cursor: pointer;
+                border: none;
+            }
+        }
+        .info-section-top{
+            // width: 1360px;
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+            margin-right: 40px;
+            .about-books{
+                width: 273px;
+                height: 405px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: var(--body-bg-color); 
+                .book-contant{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    img{
+                        width: 209px;
+                        height: 277px;
+                    }
+                    .share{
+                        width: 193px;
+                        height: 52px;
+                        display: flex;
+                        justify-content: space-between;
+                        padding-top: 27px;
+                        svg{
+                            width: 19px;
+                            height: 17px;
+                            path{
+                                width: 19px;
+                                height: 17px;
+                                fill: var(--share-bg-color)
+                            }
+                        }
+                        .review, .notes, .sharing{
+                            width: 51px;
+                            height: 52px;
+                            display: flex;
+                            flex-direction: column;
+                            row-gap: 7px;
+                            align-items: center;
+                            p{
+                                font-weight: 700;
+                                font-size: 11px;
+                                line-height: 12px;
+                                display: flex;
+                                align-items: center;
+                                color: var(--review-bg-color);
+                            }
+                        }
+                        
+                    }
+                }
+    
+            }
+            .rating-section{
+                width: 503px;
+                margin-left: 20px;
+                .author{
+                    h1{
+                        font-weight: 400;
+                        font-size: 35px;
+                        color: var(--butt-info-color);
+                    }
+                    p{
+                        font-weight: 400;
+                        font-size: 15px;
+                        color: var(--butt-info-color);
+                        padding-top: 18px;
+                        span{
+                            text-decoration: underline;
+                        }
+                    }
+                    .edition{
+                        font-weight: 400;
+                        font-size: 15px;
+                        color: var(--edition-bg-color);
+                        padding-top: 5px;
+                    }
+                }
+                .current-rating{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 30px;
+                    .stars{
+                        width: 173px;
+                        height: 16px;
+                        display: flex;
+                        column-gap: 2px;
+                        align-items: center;
+                        p{
+                            font-weight: 500;
+                            font-size: 14px;
+                            color: var(--butt-info-color);
+                            padding-left: 10px;
+                        }
+                    }
+                    span{
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 17px;
+
+                        color: var(--review-bg-color);
+                    }
+                }
+                .status-part{
+                    width: 281px;
+                    height: 101px;
+                    display: flex;
+                    .available{
+                        width: 132px;
+                        height: 100%;
+                        h4{
+                            font-weight: 700;
+                            font-size: 14px;
+                            color: var(--butt-info-color);
+                            padding-bottom: 11px;
+                        }
+                        ul{
+                            width: 107px;
+                            height: 74px;
+                            display: flex;
+                            flex-direction: column;
+                            row-gap: 8px;
+                            li{
+                                width: 107px;
+                                height: 18px;
+                                display: flex;
+                                align-items: center;
+                                column-gap: 8px;
+                                list-style: none;
+                                font-weight: 400;
+                                font-size: 15px;
+                                color: var(--butt-info-color);
+                                svg{
+                                    path{
+                                        fill: var(--butt-bg-color)
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .current-status{
+                        display: flex;
+                        flex-direction: column;
+                        h4{
+                            font-weight: 700;
+                            font-size: 14px;
+                            color: var(--butt-info-color);
+                        }
+                        button{
+                            width: 85px;
+                            height: 26px;
+                            background: var(--butt-bg-color);
+                            border-radius: 5px;
+                            font-weight: 400;
+                            font-size: 15px;
+                            text-align: center;
+                            color: var(--body-bg-color);
+                            border: none;
+                            margin-top: 16px;   
+                        }
+                        span{
+                            display: flex;
+                            margin-top: 15px;
+                            column-gap: 4px;
+                            p{
+                                font-weight: 400;
+                                font-size: 15px;
+                                color: var(--butt-info-color);
+                            }
+                            img{
+                                width: 14px;
+                                height: 17px;
+                                
+                            }
+                        }
+                    }
+                }
+                .order{
+                    width: 456px;
+                    height: 61px;
+                    display: flex;
+                    margin-top: 43px;
+                    .borrow{
+                        width: 209px;
+                        height: 61px;
+                        background: #F27851;
+                        border-radius: 5px;
+                        font-weight: 600;
+                        font-size: 20px;
+                        text-transform: uppercase;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #FFFFFF;
+                        cursor: pointer;
+                    }
+                    .reading{
+                        width: 209px;
+                        height: 61px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: #41B64D;
+                        border-radius: 5px;
+                        margin-left: 38px;
+                        cursor: pointer;
+                        p{
+                            font-weight: 700;
+                            font-size: 20px;
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+                            color: #FFFFFF;
+                            padding-right: 13px;
+                        }
+                        .headphones{
+                            // width: 66px;
+                            height: 61px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-left: 1px solid #FFF;
+                            img{
+                                padding-left: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+            .author-info{
+                width: 445px;
+                height: 299px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background: var(--body-bg-color);
+                border-radius: 10px;
+                .author-about{
+                    width: 385px;
+                    height: 86px;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 30px;
+                    margin-bottom: 24px;
+                    .author-name{
+                        width: 157px;
+                        height: 80px;
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 20px;
+                        h3{
+                            font-weight: 600;
+                            font-size: 24px;
+                            color: var(--butt-bg-color);
+                            span{
+                                color: var(--butt-info-color);
+                            }
+                        }
+                        span{
+                            font-weight: 400;
+                            font-size: 20px;
+                            color: var(--butt-info-color);
+                        }
+                    }
+                    img{
+                        width: 86px;
+                        height: 101px;
+                    }
+                }
+                p{
+                    width: 385px;
+                    height: 101px;
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: var(--butt-info-color);
+                }
+            }
+        }
+        .description{
+            // width: 1360px;   
+            margin-right: 40px;
+            height: 264px;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+            justify-content: center;
+            background: var(--body-bg-color);
+            margin-top: 67px;
+            padding: 30px 0;
+            h5{
+                font-weight: 600;
+                font-size: 24px;
+                color: var(--butt-bg-color);
+                margin-bottom: 28px;
+                margin-left: 30px;
+            }
+            p{
+                // width: 1300px;
+                height: 147px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 128.52%;
+                margin: 0 30px;
+                color: var(--butt-info-color);
+            }
+        }
+        h6{
+            font-weight: 600;
+            font-size: 24px;
+            margin-top: 90px;
+            margin-bottom: 30px;
+            color: var(--butt-info-color);
+            span{
+                color: var(--butt-bg-color);
+            }
+        }
+        .otherBooks{
+            // width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 50px;
+            .books__small{
+                width: 161px;
+                // height: 260px;
+                background-color: var(--body-bg-color);
+                padding: 15px 20px;
+                margin-bottom: 90px;
+                background: var(--body-bg-color);
+                border-radius: 10px;
+                img{
+                    width: 123px;
+                    height: 170px;
+                }
+                h3{
+                  font-weight: 400;
+                  font-size: 12px;
+                  line-height: 128.52%;
+                  color: var(--span-text-color);
+                  padding-top: 12px;
+                }
+                h4{
+                  font-weight: 400;
+                  font-size: 10px;
+                  line-height: 128.52%;
+                  color: var(--other-content-color);
+                  padding-top: 5px;
+                }
+                p{
+                  font-weight: 400;
+                  font-size: 10px;
+                  line-height: 128.52%;
+                  color: var(--span-text-color);
+                  padding-top: 5px;
+                }
+              }
+        }
+    }
+}
